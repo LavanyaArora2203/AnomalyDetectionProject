@@ -1,0 +1,29 @@
+version: 2
+models:
+  - name: raw_invoices
+    description: "Pass-through view over seeded invoice data. No transformations."
+    columns:
+      - name: id
+        tests: [not_null, unique]
+      - name: vendor_id
+        tests: [not_null]
+      - name: amount
+        tests: [not_null]
+
+  - name: raw_vendors
+    description: "Pass-through view over seeded vendor data."
+    columns:
+      - name: id
+        tests: [not_null, unique]
+
+  - name: raw_buyers
+    description: "Pass-through view over seeded buyer data."
+    columns:
+      - name: id
+        tests: [not_null, unique]
+
+  - name: raw_line_items
+    description: "Pass-through view over seeded line item data."
+    columns:
+      - name: id
+        tests: [not_null, unique]
