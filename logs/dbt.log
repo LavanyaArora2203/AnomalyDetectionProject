@@ -1,0 +1,123 @@
+[0m14:00:32.314955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227C07C5290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227C1332B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227C2576F90>]}
+
+
+============================== 14:00:32.324163 | e595b382-172c-4d28-8004-c144fe84a79e ==============================
+[0m14:00:32.324163 [info ] [MainThread]: Running with dbt=1.11.11
+[0m14:00:32.325258 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Lavanya\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:00:32.325258 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Lavanya\Desktop\AnomalyDetectionProject\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:00:32.325258 [debug] [MainThread]: Command `dbt run` failed at 14:00:32.325258 after 0.15 seconds
+[0m14:00:32.325258 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227C272B490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227C2665110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227C2667F50>]}
+[0m14:00:32.331504 [debug] [MainThread]: Flushing usage events
+[0m14:00:34.254910 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:04:44.261282 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185A9C7BE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185A9C7BA90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185A9C78FD0>]}
+
+
+============================== 16:04:44.266197 | bb551cf7-3f95-409a-aff9-0d04565e7fe4 ==============================
+[0m16:04:44.266197 [info ] [MainThread]: Running with dbt=1.11.11
+[0m16:04:44.267353 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Lavanya\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:04:44.267353 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Lavanya\Desktop\AnomalyDetectionProject\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:04:44.269210 [debug] [MainThread]: Command `dbt run` failed at 16:04:44.268211 after 0.11 seconds
+[0m16:04:44.269210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185A9C7BC90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185A9D450D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000185A9D47FD0>]}
+[0m16:04:44.270214 [debug] [MainThread]: Flushing usage events
+[0m16:04:45.496679 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:06:03.844293 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292FD776A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292FD83B910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292FD7758D0>]}
+
+
+============================== 16:06:03.848333 | 1d631fcb-0d2c-45e7-8e0a-57d404d907f0 ==============================
+[0m16:06:03.848333 [info ] [MainThread]: Running with dbt=1.11.11
+[0m16:06:03.849355 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Lavanya\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Lavanya\\Desktop\\AnomalyDetectionProject\\logs'}
+[0m16:06:04.069990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1d631fcb-0d2c-45e7-8e0a-57d404d907f0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292FC5385D0>]}
+[0m16:06:04.121954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1d631fcb-0d2c-45e7-8e0a-57d404d907f0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292FD828AD0>]}
+[0m16:06:04.125073 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:06:04.421056 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m16:06:04.423059 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m16:06:04.423059 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1d631fcb-0d2c-45e7-8e0a-57d404d907f0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292FD9E62D0>]}
+[0m16:06:05.208144 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.invoice_anomaly.mart
+- models.invoice_anomaly.raw
+- models.invoice_anomaly.staging
+[0m16:06:05.209663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1d631fcb-0d2c-45e7-8e0a-57d404d907f0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292FD81B8D0>]}
+[0m16:06:05.251840 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Lavanya\Desktop\AnomalyDetectionProject\target\manifest.json
+[0m16:06:05.251840 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Lavanya\Desktop\AnomalyDetectionProject\target\semantic_manifest.json
+[0m16:06:05.270534 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1d631fcb-0d2c-45e7-8e0a-57d404d907f0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292FDE7A090>]}
+[0m16:06:05.272011 [info ] [MainThread]: Found 485 macros
+[0m16:06:05.273019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1d631fcb-0d2c-45e7-8e0a-57d404d907f0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292FDD56D50>]}
+[0m16:06:05.274014 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:06:05.275016 [debug] [MainThread]: Command end result
+[0m16:06:05.299771 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Lavanya\Desktop\AnomalyDetectionProject\target\manifest.json
+[0m16:06:05.301913 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Lavanya\Desktop\AnomalyDetectionProject\target\semantic_manifest.json
+[0m16:06:05.304839 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Lavanya\Desktop\AnomalyDetectionProject\target\run_results.json
+[0m16:06:05.304839 [debug] [MainThread]: Command `dbt run` succeeded at 16:06:05.304839 after 1.55 seconds
+[0m16:06:05.304839 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292F4C66B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292F4C50C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000292F4C51E50>]}
+[0m16:06:05.304839 [debug] [MainThread]: Flushing usage events
+[0m16:06:07.559037 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:10:24.013609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000156B03E5D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000156B03DDF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000156B03E6810>]}
+
+
+============================== 16:10:24.017736 | 6d0816dc-686b-4acc-af17-b5da2f3c264c ==============================
+[0m16:10:24.017736 [info ] [MainThread]: Running with dbt=1.11.11
+[0m16:10:24.017736 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Lavanya\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run --select raw_buyers', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Lavanya\\Desktop\\AnomalyDetectionProject\\logs'}
+[0m16:10:24.248474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6d0816dc-686b-4acc-af17-b5da2f3c264c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000156B05181D0>]}
+[0m16:10:24.300480 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6d0816dc-686b-4acc-af17-b5da2f3c264c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000156B04A05D0>]}
+[0m16:10:24.303476 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:10:24.616239 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m16:10:24.815170 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:10:24.816170 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m16:10:24.816170 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:10:24.817174 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.invoice_anomaly.mart
+- models.invoice_anomaly.raw
+- models.invoice_anomaly.staging
+[0m16:10:24.822170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6d0816dc-686b-4acc-af17-b5da2f3c264c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000156AE3E9C50>]}
+[0m16:10:24.869752 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Lavanya\Desktop\AnomalyDetectionProject\target\manifest.json
+[0m16:10:24.872755 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Lavanya\Desktop\AnomalyDetectionProject\target\semantic_manifest.json
+[0m16:10:24.885261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6d0816dc-686b-4acc-af17-b5da2f3c264c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000156B096BAD0>]}
+[0m16:10:24.886248 [info ] [MainThread]: Found 485 macros
+[0m16:10:24.886248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6d0816dc-686b-4acc-af17-b5da2f3c264c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000156B0986210>]}
+[0m16:10:24.887247 [warn ] [MainThread]: The selection criterion 'raw_buyers' does not match any enabled nodes
+[0m16:10:24.888247 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:10:24.890251 [debug] [MainThread]: Command end result
+[0m16:10:24.914241 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Lavanya\Desktop\AnomalyDetectionProject\target\manifest.json
+[0m16:10:24.917248 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Lavanya\Desktop\AnomalyDetectionProject\target\semantic_manifest.json
+[0m16:10:24.920251 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Lavanya\Desktop\AnomalyDetectionProject\target\run_results.json
+[0m16:10:24.922248 [debug] [MainThread]: Command `dbt run` succeeded at 16:10:24.921253 after 0.99 seconds
+[0m16:10:24.922248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000156A76A78D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000156A7916B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000156AF0B6010>]}
+[0m16:10:24.923251 [debug] [MainThread]: Flushing usage events
+[0m16:10:26.940554 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:55:32.277404 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2265269D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A22651E0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2252DFED0>]}
+
+
+============================== 16:55:32.285407 | b8838a1a-2209-41f4-bad9-ea94cbfef7bc ==============================
+[0m16:55:32.285407 [info ] [MainThread]: Running with dbt=1.11.11
+[0m16:55:32.286408 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Lavanya\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt list', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Lavanya\\Desktop\\AnomalyDetectionProject\\logs'}
+[0m16:55:32.581617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b8838a1a-2209-41f4-bad9-ea94cbfef7bc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2266C1690>]}
+[0m16:55:32.642908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b8838a1a-2209-41f4-bad9-ea94cbfef7bc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A221CDCED0>]}
+[0m16:55:32.659814 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m16:55:33.114875 [debug] [MainThread]: checksum: 30a8cc8fdcbf66701b0944d4ccce3fa46dd04b61e5df68b9f16d57b2e0e3f0be, vars: {}, profile: , target: , version: 1.11.11
+[0m16:55:34.279956 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:55:34.280956 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m16:55:34.280956 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:55:34.281958 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.invoice_anomaly.mart
+- models.invoice_anomaly.staging
+- models.invoice_anomaly.raw
+[0m16:55:34.286213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b8838a1a-2209-41f4-bad9-ea94cbfef7bc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2268497D0>]}
+[0m16:55:34.329376 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Lavanya\Desktop\AnomalyDetectionProject\target\manifest.json
+[0m16:55:34.344654 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Lavanya\Desktop\AnomalyDetectionProject\target\semantic_manifest.json
+[0m16:55:34.375782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b8838a1a-2209-41f4-bad9-ea94cbfef7bc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A226459A50>]}
+[0m16:55:34.375782 [warn ] [MainThread]: No nodes selected!
+[0m16:55:34.375782 [debug] [MainThread]: Command `dbt list` succeeded at 16:55:34.375782 after 2.22 seconds
+[0m16:55:34.386204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A21D777910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2252E8110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2266A4050>]}
+[0m16:55:34.386204 [debug] [MainThread]: Flushing usage events
+[0m16:55:35.907907 [debug] [MainThread]: An error was encountered while trying to flush usage events
