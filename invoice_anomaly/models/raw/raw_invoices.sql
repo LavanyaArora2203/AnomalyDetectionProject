@@ -3,4 +3,4 @@
 -- No transformations here — this is the source-of-truth snapshot.
 {{ config(materialized='view', schema='raw') }}
 
-SELECT * FROM main.raw_invoices
+SELECT * FROM main.invoices

@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/invoice_anomaly_dbt/invoice_anomaly"
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"previewLimit": 500,
+				"driver": "DuckDB",
+				"name": "Invoice Anomaly",
+				"database": "${workspaceFolder:AnomalyDetectionProject}/invoice_anomaly/dev.duckdb"
+			}
+		],
+		"sqltools.useNodeRuntime": true
+	}
+}

@@ -13,7 +13,7 @@ WITH vendor_stats AS (
         AVG(amount) AS vendor_avg_amount,
         STDDEV_SAMP(amount) AS vendor_std_amount
 
-    FROM {{ ref('fact_invoice_features') }}
+    FROM {{ ref('fct_invoices') }}
     GROUP BY vendor_id
 
 ),
@@ -75,7 +75,7 @@ base AS (
             PARTITION BY f.bank_account
         ) AS bank_account_vendor_count
 
-    FROM {{ ref('fact_invoice_features') }} f
+    FROM {{ ref('fct_invoices') }} f
 
     LEFT JOIN vendor_stats vs
         ON f.vendor_id = vs.vendor_id
@@ -83,4 +83,4 @@ base AS (
 )
 
 SELECT *
-FROM base;
+FROM base

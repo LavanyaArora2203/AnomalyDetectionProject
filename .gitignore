@@ -1,0 +1,13 @@
+fileinfo.txt
+
+venv/
+
+
+invoice_anomaly/target/
+invoice_anomaly/dbt_packages/
+invoice_anomaly/logs/
+Information/
+   
+
+logs/
+
